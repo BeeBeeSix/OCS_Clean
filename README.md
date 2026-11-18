@@ -2,6 +2,8 @@
 
 A fast, standalone Windows desktop utility written in Rust to recursively batch-purge unreferenced Registered Applications (`RegApps`) and unused named objects from DWG and DXF files—without requiring AutoCAD or OpenCADStudio to be open.
 
+<img width="1270" height="759" alt="image" src="https://github.com/user-attachments/assets/2540a22a-90ea-4186-b45b-09f7d22d9c47" />
+
 Built with [`acadrust`](https://github.com) and [`eframe` / `egui`](https://github.com), it mirrors your folder hierarchy, safely skips the output folder when placed inside the input directory, optionally follows and cleans attached Xrefs, converts Xref paths to relative paths, and generates a detailed CSV audit report.
 
 ---
