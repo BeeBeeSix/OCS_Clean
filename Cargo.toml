@@ -1,0 +1,11 @@
+[package]
+name = "dwg-purge-regapps"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+acadrust = "0.6.8"
+eframe = "0.31"
+rayon = "1"
+rfd = "0.15"
+walkdir = "2"
